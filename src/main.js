@@ -9,6 +9,9 @@ import 'element-ui/lib/theme-chalk/index.css'
 import VueI18n from 'vue-i18n'
 // 全局默认样式
 import global from './assets/css/global.css'
+// rem基准值
+import 'lib-flexible/flexible'
+
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
